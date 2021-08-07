@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/IDECLion.dir/main.cpp.o CMakeFiles/IDECLion.dir/src/Serialize.cpp.o -o IDECLion 

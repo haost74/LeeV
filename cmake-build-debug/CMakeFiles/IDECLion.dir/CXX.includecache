@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haost/Desktop/IDECLion/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+src/Serialize.h
+/home/haost/Desktop/IDECLion/src/Serialize.h
+
+/home/haost/Desktop/IDECLion/src/Serialize.cpp
+Serialize.h
+/home/haost/Desktop/IDECLion/src/Serialize.h
+
+/home/haost/Desktop/IDECLion/src/Serialize.h
+iostream
+-
+string
+-
+sstream
+-
+
