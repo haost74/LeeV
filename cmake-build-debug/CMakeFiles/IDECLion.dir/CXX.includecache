@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/haost/Desktop/IDECLion/main.cpp
+/home/haost/Desktop/LeeV/main.cpp
 iostream
 -
 sstream
@@ -14,13 +14,13 @@ sstream
 string
 -
 src/Serialize.h
-/home/haost/Desktop/IDECLion/src/Serialize.h
+/home/haost/Desktop/LeeV/src/Serialize.h
 
-/home/haost/Desktop/IDECLion/src/Serialize.cpp
+/home/haost/Desktop/LeeV/src/Serialize.cpp
 Serialize.h
-/home/haost/Desktop/IDECLion/src/Serialize.h
+/home/haost/Desktop/LeeV/src/Serialize.h
 
-/home/haost/Desktop/IDECLion/src/Serialize.h
+/home/haost/Desktop/LeeV/src/Serialize.h
 iostream
 -
 string

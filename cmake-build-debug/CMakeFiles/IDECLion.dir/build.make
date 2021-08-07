@@ -53,10 +53,10 @@ RM = /home/haost/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/haost/Desktop/IDECLion
+CMAKE_SOURCE_DIR = /home/haost/Desktop/LeeV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/haost/Desktop/IDECLion/cmake-build-debug
+CMAKE_BINARY_DIR = /home/haost/Desktop/LeeV/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/IDECLion.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/IDECLion.dir/flags.make
 
 CMakeFiles/IDECLion.dir/main.cpp.o: CMakeFiles/IDECLion.dir/flags.make
 CMakeFiles/IDECLion.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haost/Desktop/IDECLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IDECLion.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IDECLion.dir/main.cpp.o -c /home/haost/Desktop/IDECLion/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IDECLion.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IDECLion.dir/main.cpp.o -c /home/haost/Desktop/LeeV/main.cpp
 
 CMakeFiles/IDECLion.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IDECLion.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/IDECLion/main.cpp > CMakeFiles/IDECLion.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/LeeV/main.cpp > CMakeFiles/IDECLion.dir/main.cpp.i
 
 CMakeFiles/IDECLion.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IDECLion.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/IDECLion/main.cpp -o CMakeFiles/IDECLion.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/LeeV/main.cpp -o CMakeFiles/IDECLion.dir/main.cpp.s
 
 CMakeFiles/IDECLion.dir/src/Serialize.cpp.o: CMakeFiles/IDECLion.dir/flags.make
 CMakeFiles/IDECLion.dir/src/Serialize.cpp.o: ../src/Serialize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haost/Desktop/IDECLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IDECLion.dir/src/Serialize.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IDECLion.dir/src/Serialize.cpp.o -c /home/haost/Desktop/IDECLion/src/Serialize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IDECLion.dir/src/Serialize.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IDECLion.dir/src/Serialize.cpp.o -c /home/haost/Desktop/LeeV/src/Serialize.cpp
 
 CMakeFiles/IDECLion.dir/src/Serialize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IDECLion.dir/src/Serialize.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/IDECLion/src/Serialize.cpp > CMakeFiles/IDECLion.dir/src/Serialize.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/LeeV/src/Serialize.cpp > CMakeFiles/IDECLion.dir/src/Serialize.cpp.i
 
 CMakeFiles/IDECLion.dir/src/Serialize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IDECLion.dir/src/Serialize.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/IDECLion/src/Serialize.cpp -o CMakeFiles/IDECLion.dir/src/Serialize.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/LeeV/src/Serialize.cpp -o CMakeFiles/IDECLion.dir/src/Serialize.cpp.s
 
 # Object files for target IDECLion
 IDECLion_OBJECTS = \
@@ -104,7 +104,7 @@ IDECLion: CMakeFiles/IDECLion.dir/main.cpp.o
 IDECLion: CMakeFiles/IDECLion.dir/src/Serialize.cpp.o
 IDECLion: CMakeFiles/IDECLion.dir/build.make
 IDECLion: CMakeFiles/IDECLion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haost/Desktop/IDECLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable IDECLion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable IDECLion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IDECLion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +116,6 @@ CMakeFiles/IDECLion.dir/clean:
 .PHONY : CMakeFiles/IDECLion.dir/clean
 
 CMakeFiles/IDECLion.dir/depend:
-	cd /home/haost/Desktop/IDECLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/haost/Desktop/IDECLion /home/haost/Desktop/IDECLion /home/haost/Desktop/IDECLion/cmake-build-debug /home/haost/Desktop/IDECLion/cmake-build-debug /home/haost/Desktop/IDECLion/cmake-build-debug/CMakeFiles/IDECLion.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/haost/Desktop/LeeV/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/haost/Desktop/LeeV /home/haost/Desktop/LeeV /home/haost/Desktop/LeeV/cmake-build-debug /home/haost/Desktop/LeeV/cmake-build-debug /home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles/IDECLion.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/IDECLion.dir/depend
 
