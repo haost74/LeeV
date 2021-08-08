@@ -159,7 +159,22 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=IDECLion
+CMAKE_PROJECT_NAME:STATIC=app
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=0.0.1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -234,6 +249,18 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
+
+//Path to a file.
+SQLite3_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+SQLite3_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libsqlite3.so
+
+//Value Computed by CMake
+app_BINARY_DIR:STATIC=/home/haost/Desktop/LeeV/cmake-build-debug
+
+//Value Computed by CMake
+app_SOURCE_DIR:STATIC=/home/haost/Desktop/LeeV
 
 
 ########################
@@ -326,6 +353,14 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/haost/Desktop/LeeV
@@ -391,8 +426,16 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding SQLite3
+FIND_PACKAGE_MESSAGE_DETAILS_SQLite3:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libsqlite3.so][v3.34.1()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: ProcessorCount_cmd_nproc
 ProcessorCount_cmd_nproc-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SQLite3_INCLUDE_DIR
+SQLite3_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SQLite3_LIBRARY
+SQLite3_LIBRARY-ADVANCED:INTERNAL=1
 

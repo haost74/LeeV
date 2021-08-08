@@ -85,6 +85,12 @@
 		<Unit filename="/home/haost/Desktop/LeeV/main.cpp">
 			<Option target="IDECLion"/>
 		</Unit>
+		<Unit filename="/home/haost/Desktop/LeeV/src/Address/AddressIp.cpp">
+			<Option target="IDECLion"/>
+		</Unit>
+		<Unit filename="/home/haost/Desktop/LeeV/src/Address/AddressIp.h">
+			<Option target="IDECLion"/>
+		</Unit>
 		<Unit filename="/home/haost/Desktop/LeeV/src/Serialize.cpp">
 			<Option target="IDECLion"/>
 		</Unit>

@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IDECLion.dir/build.make CMakeFiles/IDECLion.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Address/AddressIp.o: src/Address/AddressIp.cpp.o
+.PHONY : src/Address/AddressIp.o
+
+# target to build an object file
+src/Address/AddressIp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IDECLion.dir/build.make CMakeFiles/IDECLion.dir/src/Address/AddressIp.cpp.o
+.PHONY : src/Address/AddressIp.cpp.o
+
+src/Address/AddressIp.i: src/Address/AddressIp.cpp.i
+.PHONY : src/Address/AddressIp.i
+
+# target to preprocess a source file
+src/Address/AddressIp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IDECLion.dir/build.make CMakeFiles/IDECLion.dir/src/Address/AddressIp.cpp.i
+.PHONY : src/Address/AddressIp.cpp.i
+
+src/Address/AddressIp.s: src/Address/AddressIp.cpp.s
+.PHONY : src/Address/AddressIp.s
+
+# target to generate assembly for a file
+src/Address/AddressIp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IDECLion.dir/build.make CMakeFiles/IDECLion.dir/src/Address/AddressIp.cpp.s
+.PHONY : src/Address/AddressIp.cpp.s
+
 src/Serialize.o: src/Serialize.cpp.o
 .PHONY : src/Serialize.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Address/AddressIp.o"
+	@echo "... src/Address/AddressIp.i"
+	@echo "... src/Address/AddressIp.s"
 	@echo "... src/Serialize.o"
 	@echo "... src/Serialize.i"
 	@echo "... src/Serialize.s"

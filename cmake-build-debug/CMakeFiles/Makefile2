@@ -81,12 +81,12 @@ clean: CMakeFiles/IDECLion.dir/clean
 CMakeFiles/IDECLion.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IDECLion.dir/build.make CMakeFiles/IDECLion.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IDECLion.dir/build.make CMakeFiles/IDECLion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target IDECLion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target IDECLion"
 .PHONY : CMakeFiles/IDECLion.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IDECLion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IDECLion.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/haost/Desktop/LeeV/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/IDECLion.dir/rule

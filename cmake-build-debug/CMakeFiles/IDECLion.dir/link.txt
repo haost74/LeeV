@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/IDECLion.dir/main.cpp.o CMakeFiles/IDECLion.dir/src/Serialize.cpp.o -o IDECLion 
+/usr/bin/c++ -g CMakeFiles/IDECLion.dir/main.cpp.o CMakeFiles/IDECLion.dir/src/Serialize.cpp.o CMakeFiles/IDECLion.dir/src/Address/AddressIp.cpp.o -o IDECLion  -lsqlite3 -lpthread 
