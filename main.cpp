@@ -4,9 +4,12 @@
 #include <thread>
 #include "src/Serialize.h"
 #include "src/Address/AddressIp.h"
+#include "src/SqlDb/Lite3.h"
 
-
+// cmake --build .
 int main() {
+
+
 
     std::stringstream  str;
     Serialize sr;
