@@ -15,7 +15,11 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 include_directories(/lib)
 link_directories(/lib)
 
+if(WIN32)
 add_library(sqlite3 STATIC lib/sqlite3.c lib/sqlite3.h lib/sqlite3ext.h)
+else()
+include_directories(${SQLITE3_INCLUDE_DIRS})
+endif()
 
 
 add_executable(IDECLion main.cpp src/Serialize.cpp src/Serialize.h
