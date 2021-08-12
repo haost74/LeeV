@@ -23,7 +23,7 @@ endif()
 
 
 add_executable(IDECLion main.cpp src/Serialize.cpp src/Serialize.h
-        src/Address/AddressIp.cpp src/Address/AddressIp.h src/SqlDb/Lite3.cpp src/SqlDb/Lite3.h)
+        src/Address/AddressIp.cpp src/Address/AddressIp.h src/SqlDb/Lite3.cpp src/SqlDb/Lite3.h src/GarbageFile/GarbageV.cpp src/GarbageFile/GarbageV.h)
 
 target_link_libraries(IDECLion
         Threads::Threads
