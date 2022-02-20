@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/haost/Desktop/LeeV/lib/sqlite3.h
+stdarg.h
+-
+
 /home/haost/Desktop/LeeV/main.cpp
 iostream
 -
@@ -19,15 +23,45 @@ src/Serialize.h
 /home/haost/Desktop/LeeV/src/Serialize.h
 src/Address/AddressIp.h
 /home/haost/Desktop/LeeV/src/Address/AddressIp.h
-
-/home/haost/Desktop/LeeV/src/Address/AddressIp.cpp
-AddressIp.h
-/home/haost/Desktop/LeeV/src/Address/AddressIp.h
+src/SqlDb/Lite3.h
+/home/haost/Desktop/LeeV/src/SqlDb/Lite3.h
+src/GarbageFile/GarbageV.h
+/home/haost/Desktop/LeeV/src/GarbageFile/GarbageV.h
+fstream
+-
+cstring
+-
 
 /home/haost/Desktop/LeeV/src/Address/AddressIp.h
 string
 -
 vector
+-
+
+/home/haost/Desktop/LeeV/src/GarbageFile/GarbageV.h
+fstream
+-
+chrono
+-
+vector
+-
+cstdint
+-
+numeric
+-
+random
+-
+algorithm
+-
+iostream
+-
+cassert
+-
+string
+-
+fcntl.h
+-
+unistd.h
 -
 
 /home/haost/Desktop/LeeV/src/Serialize.h
@@ -36,5 +70,13 @@ iostream
 string
 -
 sstream
+-
+
+/home/haost/Desktop/LeeV/src/SqlDb/Lite3.h
+../../lib/sqlite3.h
+/home/haost/Desktop/LeeV/lib/sqlite3.h
+stdio.h
+-
+string
 -
 

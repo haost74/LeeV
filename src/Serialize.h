@@ -22,6 +22,7 @@ public:
                 return static_cast<std::size_t>(os.tellp()  -pos);
             }
             // В поток вывода записывается не только содержимое строки, но и ее размер. 
+
             template<const std::string&>
             auto write(std::ostream& os, const std::string& value) -> std::size_t
             {
@@ -32,6 +33,7 @@ public:
                     os.write(value.data(), len);
                 return static_cast<std::size_t>(os.tellp() - pos);
             }
+
 
 
     template<bool>
